@@ -27,19 +27,32 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link to="/Profile" style={{ textDecoration: 'none', display: 'block' }}>
+        <Link
+          to="/Profile"
+          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
           <MenuItem onClick={handleClose}>
             About Me
           </MenuItem>
         </Link>
-        <Link to="/Books" style={{ textDecoration: 'none', display: 'block' }}>
+        <Link
+          to="/Books"
+          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
           <MenuItem onClick={handleClose}>
             Books
           </MenuItem>
         </Link>
-        <Link to="/Interests" style={{ textDecoration: 'none', display: 'block' }}>
+        <Link
+          to="/Interests"
+          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
           <MenuItem onClick={handleClose}>
-            Hobbies and Interests
+            Interests
+          </MenuItem>
+        </Link>
+        <Link
+          to="/"
+          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
+          <MenuItem onClick={handleClose}>
+            Home
           </MenuItem>
         </Link>
       </Menu>
