@@ -8,12 +8,15 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import NavBarMenu from './NavBarMenu'
+import NavBarMenuRouter from './NavBarMenuRouter.js'
+
 
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    boxShadow: "none",
+    backgroundColor: "#03a9f4",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -29,9 +32,9 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.root}>
         <Toolbar>
-          <NavBarMenu/>
+          <NavBarMenuRouter/>
           <Typography variant="h6" className={classes.title}>
             Scott Eberle
           </Typography>
