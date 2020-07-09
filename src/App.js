@@ -6,7 +6,7 @@ import Home from './components/Home.js'
 import About from './components/About.js'
 import Hobbies from './components/Hobbies.js'
 import Books from './components/Books.js'
-
+import Toolbar from '@material-ui/core/Toolbar';
 
 function App() {
   return (

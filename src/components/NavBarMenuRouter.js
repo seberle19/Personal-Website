@@ -28,6 +28,13 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <Link
+          to="/"
+          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
+          <MenuItem onClick={handleClose}>
+            Home
+          </MenuItem>
+        </Link>
+        <Link
           to="/Profile"
           style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
           <MenuItem onClick={handleClose}>
@@ -48,13 +55,7 @@ export default function SimpleMenu() {
             Interests
           </MenuItem>
         </Link>
-        <Link
-          to="/"
-          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
-          <MenuItem onClick={handleClose}>
-            Home
-          </MenuItem>
-        </Link>
+
       </Menu>
     </div>
   );

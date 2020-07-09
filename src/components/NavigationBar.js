@@ -31,8 +31,8 @@ export default function ButtonAppBar() {
 
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static" className={classes.root}>
+    <div>
+      <AppBar position="sticky" className={classes.root}>
         <Toolbar>
           <NavBarMenuRouter/>
           <Typography variant="h6" className={classes.title}>
