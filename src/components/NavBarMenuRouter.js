@@ -48,14 +48,6 @@ export default function SimpleMenu() {
             Books
           </MenuItem>
         </Link>
-        <Link
-          to="/Interests"
-          style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
-          <MenuItem onClick={handleClose}>
-            Interests
-          </MenuItem>
-        </Link>
-
       </Menu>
     </div>
   );

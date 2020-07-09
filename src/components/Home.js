@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import CrabPhoto from './photos/CrabPhoto.jpeg';
-import Link from '@material-ui/core/Link';
 import { Link as RouterLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -27,14 +26,18 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ComplexGrid() {
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
 
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item alginContent="center">
-            <img className={classes.img} src={CrabPhoto} algin="center"/>
+            <img
+              className={classes.img}
+              src={CrabPhoto}
+              algin="center"
+              alt="Me with a crab"
+              />
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
