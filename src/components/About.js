@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import SchoolCard from './AboutComponents/SchoolCard.js'
+import LaxCard from './AboutComponents/LacrosseCard.js'
 
 
 
@@ -30,6 +31,7 @@ export default function AboutGrid(){
   return (
     <div>
       <SchoolCard/>
+      <LaxCard/>
     </div>
   )
 
