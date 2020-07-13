@@ -10,7 +10,7 @@ import SwatPic from './photos/Swarthmore.jpg';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    color: '#d32f2f',
+    backgroundColor: '#c62828',
   },
 
   title: {
@@ -24,11 +24,11 @@ const useStyles = makeStyles({
     paddingTop: 0, // 16:9
   },
   color: {
-    textPrimary: '#d32f2f',
+    textPrimary: '#212121',
   }
 });
 
-export default function SimpleCard() {
+export default function SchoolCard() {
   const classes = useStyles();
 
 

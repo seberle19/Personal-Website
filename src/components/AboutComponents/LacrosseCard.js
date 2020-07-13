@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import SwatPic from './photos/Swarthmore.jpg';
 
 
 const useStyles = makeStyles({
@@ -24,11 +23,11 @@ const useStyles = makeStyles({
     paddingTop: 0, // 16:9
   },
   color: {
-    textPrimary: '#d32f2f',
+    textPrimary: '#212121',
   }
 });
 
-export default function SimpleCard() {
+export default function LacrosseCard() {
   const classes = useStyles();
 
 
@@ -38,7 +37,7 @@ export default function SimpleCard() {
         <Typography className={classes.title} color="textSecondary" gutterBottom>
           Lacrosse
         </Typography>
-        <Typography variant="h6" component="h3">
+        <Typography variant="h6" component="h3" color="textPrimary">
           Most of my free time at Swarthmore I spend playing lacrosse. I had
           a career high in points during the 2020 season, althought the season
           was cut short due to COVID-19. I have also been named to the
@@ -53,7 +52,6 @@ export default function SimpleCard() {
             height="600"
             margin-left="auto"
             margin-right="auto"
-
             >
             </iframe>
       </CardMedia>
