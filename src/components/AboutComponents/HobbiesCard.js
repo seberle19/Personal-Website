@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import { Link as RouterLink } from 'react-router-dom';
 import NewsPaper from './photos/NewsPaper.png';
 import PlanePull from './photos/PlanePull.jpeg';
@@ -55,6 +54,7 @@ export default function HobbiesCard() {
             >
             <img
               algin="center"
+              alt="NewsPaper"
               src={NewsPaper}
               height= "200"
               />
@@ -73,7 +73,8 @@ export default function HobbiesCard() {
           of Philadelphia, where teams of 20 must raise a certain amount of
           money to participate. Then the teams have a competition to see who
           can pull a plane about 100 feet the quickest. Our group ended up
-          having the fastest time and winning the trophy (pictured below). This
+          having the fastest time and winning the trophy (pictured below along
+          with my friend Chris). This
           was the most enjoyable and unique fundraiser that I have ever
           experienced. Althought we were not able to participate in the Plane
           Pull in 2020 due to COVID, we are hoping to defend our title the next
@@ -84,9 +85,7 @@ export default function HobbiesCard() {
           src={PlanePull}
           alt="Plane Pull Trophy"
           height = "1000"
-
           align="center"
-
         />
       </CardContent>
     </Card>

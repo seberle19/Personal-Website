@@ -72,7 +72,10 @@ export default function ComplexGrid() {
                   >
                   My Personal Github
                 </RouterLink>
+                  <br/> Contact: skeberle19@gmail.com
                 </Typography>
+
+
                 <Typography variant="body2" color="textSecondary">
                   (Pictured here: my friend Devin and I enjoying some shellfish)
                 </Typography>
