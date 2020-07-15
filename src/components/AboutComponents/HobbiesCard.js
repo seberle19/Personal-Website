@@ -49,8 +49,8 @@ export default function HobbiesCard() {
           to read some of my writing you can click on the newspaper to be taken
           to some of my articles. <br/>
           <RouterLink
+            to={{ pathname: "https://swarthmorephoenix.com/author/scott-eberle/" }}
             target="_blank"
-            to="https://swarthmorephoenix.com/author/scott-eberle/"
             >
             <img
               algin="center"
@@ -72,9 +72,9 @@ export default function HobbiesCard() {
           fundraiser for the Ronald McDonald House near the Children's Hospital
           of Philadelphia, where teams of 20 must raise a certain amount of
           money to participate. Then the teams have a competition to see who
-          can pull a plane about 100 feet the quickest. Our group ended up
-          having the fastest time and winning the trophy (pictured below along
-          with my friend Chris). This
+          can pull a plane about 100 feet the quickest at the Philadelphia
+          Airport. Our group ended up having the fastest time and winning the
+          trophy (pictured below along with my friend Chris). This
           was the most enjoyable and unique fundraiser that I have ever
           experienced. Althought we were not able to participate in the Plane
           Pull in 2020 due to COVID, we are hoping to defend our title the next

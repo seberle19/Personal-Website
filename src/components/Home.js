@@ -59,16 +59,16 @@ export default function ComplexGrid() {
                 </Typography>
                 <Typography>
                 <RouterLink
+                  to={{ pathname: "https://www.linkedin.com/in/scott-eberle-43a754173/" }}
                   target="_blank"
-                  to="https://www.linkedin.com/in/scott-eberle-43a754173/"
                   >
                   My LinkedIn
                 </RouterLink>
                 </Typography>
                 <Typography>
                 <RouterLink
+                  to={{ pathname: "https://github.com/seberle19/" }}
                   target="_blank"
-                  to="https://github.com/seberle19/"
                   >
                   My Personal Github
                 </RouterLink>

@@ -34,7 +34,7 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <Link
-          to="/"
+          to="/Personal-Website"
           style={{ textDecoration: 'none', display: 'block', color: '#212121' }}>
           <MenuItem onClick={handleClose}>
             Home

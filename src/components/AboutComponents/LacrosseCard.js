@@ -39,7 +39,7 @@ export default function LacrosseCard() {
         </Typography>
         <Typography variant="h6" component="h3" color="textPrimary">
           Most of my free time at Swarthmore I spend playing lacrosse. I had
-          a career high in points during the 2020 season, althought the season
+          a career high in points during the 2020 season, although the season
           was cut short due to COVID-19. I have also been named to the
           Centennial Confrence Academic Honor Roll in 2019 and 2020. Here is one
           of my favorite highlights from the 2020 spring season:
