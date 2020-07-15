@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Personal-Website/static/js/main.0d60935d.chunk.js",
+    "main.js.map": "/Personal-Website/static/js/main.0d60935d.chunk.js.map",
+    "runtime-main.js": "/Personal-Website/static/js/runtime-main.059f8d32.js",
+    "runtime-main.js.map": "/Personal-Website/static/js/runtime-main.059f8d32.js.map",
+    "static/js/2.bbcb180d.chunk.js": "/Personal-Website/static/js/2.bbcb180d.chunk.js",
+    "static/js/2.bbcb180d.chunk.js.map": "/Personal-Website/static/js/2.bbcb180d.chunk.js.map",
+    "index.html": "/Personal-Website/index.html",
+    "precache-manifest.973dc9cbd7a9830ca09a61b0b0913605.js": "/Personal-Website/precache-manifest.973dc9cbd7a9830ca09a61b0b0913605.js",
+    "service-worker.js": "/Personal-Website/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Personal-Website/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.bbcb180d.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.bbcb180d.chunk.js.LICENSE.txt",
+    "static/media/CrabPhoto.jpeg": "/Personal-Website/static/media/CrabPhoto.3f80758d.jpeg",
+    "static/media/MoonwalkingWithEinstein.jpeg": "/Personal-Website/static/media/MoonwalkingWithEinstein.38dc920a.jpeg",
+    "static/media/Mythology.jpg": "/Personal-Website/static/media/Mythology.19511df2.jpg",
+    "static/media/NewsPaper.png": "/Personal-Website/static/media/NewsPaper.56069946.png",
+    "static/media/PlanePull.jpeg": "/Personal-Website/static/media/PlanePull.b03841c8.jpeg",
+    "static/media/Swarthmore.jpg": "/Personal-Website/static/media/Swarthmore.5a726f90.jpg",
+    "static/media/TheQuants.jpg": "/Personal-Website/static/media/TheQuants.d93d06cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.059f8d32.js",
+    "static/js/2.bbcb180d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0d60935d.chunk.js"
+  ]
+}
