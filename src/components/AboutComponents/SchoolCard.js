@@ -42,7 +42,7 @@ export default function SchoolCard() {
           I am currently getting a B.A. in Computer Science at
           Swarthmore college. Computer science has become my favorite subject,
           but the liberal arts education is what really drew me to Swarthmore.
-          I have taken some really awesome courses outside of my major on
+          I have taken some really awesome courses outside of my major in
           subjects like ancient history and cognitive science.
         </Typography>
       <CardMedia
