@@ -77,8 +77,7 @@ export default function HobbiesCard() {
           trophy (pictured below along with my friend Chris). This
           was the most enjoyable and unique fundraiser that I have ever
           experienced. Althought we were not able to participate in the Plane
-          Pull in 2020 due to COVID, we are hoping to defend our title the next
-          opportunity that we can.
+          Pull in 2020 due to COVID, we are hoping to defend our title soon. 
         </Typography>
         <CardMedia
           component="img"
